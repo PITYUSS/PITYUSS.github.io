@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("hatter/background4.jpg");
+    background-position: top center;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+header {
+    background: url("hatter/header8.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 30px;
+    padding: 0px 60px 0px 60px;
+    margin: 0 0 10px 0;
+    text-shadow: 0 0 20px rgba(255, 255, 255, .4);
+}
+
+header h1 {
+    margin: 0px;
+    padding: 120px 0 0 0;
+}
+
+header h2 {
+    margin: 0px;
+    padding: 120px 0 0 0;
+    font-size: 20px;
+    padding: 0 0px 60px 0px;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.jobbra {
+    text-align: right;
+    color: black;
+}
+
+.content {
+    margin: 0;
+    align-items: flex-top;
+    background-color: white;
+}
+
+nav {
+    width: 20vw;
+}
+
+nav li {
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    display: block;
+    font-weight: 700;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 20px;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, .4);
+}
+
+main {
+    margin: 10px 10px 500px 10px;
+    margin: 0;
+    padding: 30px;
+}
+
+aside {
+    width: 10vw;
+}
+
+main img {
+    float: right;
+    padding: 0 0 20px 35px;
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    display: block
+}
+
+aside ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 20px;
+}
+
+aside a:hover {
+    background: rgba(0, 0, 0, .4);
+}
+
+aside li {
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.pagination {
+    display: flex;
+    margin: 30px;
+    flex-flow: row wrap;
+    margin: 800px 0 50px 0;
+    justify-content: center;
+}
+
+.pagination .page {
+    display: inline-block;
+    padding: 5px 8px;
+    text-decoration: none;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, .2);
+    color: #354052;
+    margin: 0 5px 5px 0;
+}
+
+.pagination .page:hover,
+.pagination span.page {
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+}
+
+.btn {
+    background-color: white;
+    border: 1px solid;
+    color: black;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    float: right;
+}
+
+.mail a {
+    text-decoration: none;
+    color: black;
+    float: left;
+    border: 1px solid;
+    padding: 8px 16px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.mail a:hover {
+    background-color: rgba(0, 0, 0, .4);
+    color: black;
+}
+
+.btn {
+    background-color: white;
+    border: 1px solid;
+    color: black;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    float: center;
+}
+
+.btn1:hover {
+    background-color: rgba(0, 0, 0, .4);
+    color: black;
+}
+
+.panorama-container {
+    width: 100%;
+    height: fit-content;
+    margin: 12px 0;
+}
+
+.panorama {
+    height: 300px;
+}
+
+.text {}
